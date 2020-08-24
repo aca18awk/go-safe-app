@@ -1,0 +1,115 @@
+/* Aleksandra Kulbaka, GoSafe, 2020 */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 140px;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin: 0;
+    padding: 0px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin: 0;
+    padding: 10px;
+}
+
+.field {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+}
+
+#country_to,
+#country_from {
+    font-size: 28px;
+}
+
+select option {
+    background-color: rgb(150, 160, 163);
+    border: none;
+}
+
+select {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=submit]:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid black;
+    margin-bottom: -2px;
+}
+
+#response {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+#image_licence {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-size: 100% 120%;
+    }
+    .field {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
