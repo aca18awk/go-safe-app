@@ -57,4 +57,3 @@ def submit():
     description = get_description()       
   return render_template("index.html", rules=rules, response=response, description=description)
 
-app.run(debug=True)
