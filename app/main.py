@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 def get_rules():
-  with open('static/restriction.csv') as csv_file:
+  with open('app/static/restriction.csv') as csv_file:
     data = csv.reader(csv_file, delimiter=',')
     first_line = True
     rules = []
