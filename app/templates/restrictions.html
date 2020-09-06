@@ -20,36 +20,20 @@
     </header>
     
     <main>
-           <p>
-           Check where you can travel during COVID-19 based on the newest government information. 
-           </p>
-
-        <form name="countries" method="post" action="/submit">
-          <div class="field">
-            <p>Where are you travelling from?</p>
-            <select id="country_from">
-              <option value="uk">UK</option>
-            </select>
-          </div>
-
-          <div class="field">
-            <p>Where are you travelling to?</p>
-            <select id="country_to" name='country_to'>
-              {% for rule in rules %}
-              <option name='country_to' value={{ rule.name }}>{{ rule.country }}</option>         
-              {% endfor %}
-            </select>				
-          </div>
-
-					<br><br>
-					<input type= "submit" name= "submit"/>
-				</form>
-        <br>
+           <h2>
+           UK - {{ response.country }} 
+           </h2>
+      <p>
+      {{ response.flight }}
+      </p>
+      <p>
+      {{ response.quarantine }}
+      </p>
 
       <footer>
         <br> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3QTZqW4b8hQ7JjX-jaHE6RQSrdvifpeu4keXLnngot8zgA/viewform?usp=sf_link" target="_blank">
         Please, let us know what you think about the website.
-        </a> <br> <br>
+        </a> <br><br>
         <div id='image_licence'>
           Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=841441" target="_blank">Free-Photos</a>
           from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=841441" target="_blank">Pixabay</a>  

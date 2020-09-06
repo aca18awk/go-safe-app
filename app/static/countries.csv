@@ -1,0 +1,11 @@
+﻿Country,Flights,Quarantine,Addition
+Austria,Yes,0,(subject to past 10 days' travel history)
+Brazil,Yes,0,"(only by air, except at airports in the states of Mato Grosso do Sul, Paraiba, Rondonia, Rio Grande do Sul and Tocantins)"
+China,Yes,14 days,(subject to passing covid-19 test before travel)
+France,Yes,0,
+India,No,14 days,
+Norway,Yes,10 days,
+Poland,Yes,0,
+South Africa,No,10/14 days,
+Spain,Yes,0,
+United Arab Emirates,Yes,14 days,(subject to passing covid-19 test before travel)
