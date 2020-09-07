@@ -1,11 +1,11 @@
 ﻿Country,Flights,Quarantine,Addition
 Austria,Yes,0,(subject to past 10 days' travel history)
 Brazil,Yes,0,"(only by air, except at airports in the states of Mato Grosso do Sul, Paraiba, Rondonia, Rio Grande do Sul and Tocantins)"
-China,Yes,14 days,(subject to passing covid-19 test before travel)
+China,Yes,14 days,(subject to visa restrictions and passing covid-19 test no more than 3 days before travel)
 France,Yes,0,
-India,No,14 days,
+India,No,14 days,(certain eligible foreign nationals are able to travel to India via Vande Bharat flights or third country flights)
 Norway,Yes,10 days,
 Poland,Yes,0,
-South Africa,No,10/14 days,
+South Africa,No,10 days,(entry into South Africa is allowed for South African nationals and foreign nationals with valid residence permits)
 Spain,Yes,0,
-United Arab Emirates,Yes,14 days,(subject to passing covid-19 test before travel)
+United Arab Emirates,Yes,14 days,(subject to visa restrictions and passing covid-19 test within 96 hours of departure)
