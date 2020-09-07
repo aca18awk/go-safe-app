@@ -46,7 +46,7 @@ def submit():
           quarantine = 'Once you arrive, you need to be in quarantine for: ' +  rule['quarantine']
 
         if rule['flight'].strip().lower() == 'yes':
-          flight = 'You can travel there ' + rule['additions']
+          flight = 'You can travel there. ' + rule['additions'] + "."
         else:
           flight = 'No, you are not allowed to travel there.'
           quarantine = ''
