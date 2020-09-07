@@ -81,6 +81,7 @@ input[type=submit]:hover {
 
 a {
     text-decoration: none;
+    font-style: italic;
     color: rgb(36, 36, 36);
 }
 
