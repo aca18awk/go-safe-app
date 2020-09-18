@@ -40,13 +40,14 @@ def submit():
     for rule in rules:
       if rule['name'] == country:
         country = rule['country']
+        description = rule['additions']
         if rule['quarantine'] == '0':
           quarantine = 'You do not have to be in quarantine once you arrive.'
         else:
           quarantine = 'Once you arrive, you need to be in quarantine for: ' +  rule['quarantine']
 
         if rule['flight'].strip().lower() == 'yes':
-          flight = 'You can travel there. ' + rule['additions']
+          flight = 'You can travel there. '
         else:
           flight = 'No, you are not allowed to travel there.'
           quarantine = ''
@@ -54,6 +55,7 @@ def submit():
         response = {
           "country": country,
           "flight": flight,
+          "description": description,
           "quarantine": quarantine
         }
         break   

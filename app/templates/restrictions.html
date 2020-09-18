@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Safe Travel">
+  <meta name="description" content="Keep up to date with changing travel regulations and restrictions.Safe travel with Trvl Safe.">
   <meta name="keywords" content="Travel, Legal Travel, Travel Restriction, COVID19">
   <meta name="author" content="Aleksandra Kulbaka">
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -25,6 +25,9 @@
            </h2>
       <p>
       {{ response.flight }}
+      </p>
+      <p>
+      {{ response.description }}
       </p>
       <p>
       {{ response.quarantine }}
